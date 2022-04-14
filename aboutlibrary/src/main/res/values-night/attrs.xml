@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="about_app_background_color" format="color" />
+    <attr name="about_app_text_color" format="color" />
+    <attr name="about_app_name_color" format="color" />
+    <attr name="about_app_version_color" format="color" />
+
+</resources>

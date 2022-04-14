@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_dialog">
+
+    <WebView
+        android:id="@+id/dialog_policy__web_view__main"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp400"
+        android:layout_margin="@dimen/dp10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/dialog_policy__view__separator"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@color/sonic_silver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialog_policy__web_view__main" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/dialog_policy__img__open_in_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp20"
+        android:src="@drawable/open_web_icon"
+        android:tint="?attr/about_app_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialog_policy__view__separator" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/dialog_policy__label__close_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp20"
+        android:text="@string/accept_button"
+        android:textColor="?attr/about_app_text_color"
+        android:textSize="@dimen/sp16"
+        app:layout_constraintBottom_toBottomOf="@id/dialog_policy__img__open_in_web"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/dialog_policy__img__open_in_web" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

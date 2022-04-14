@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Enlace hacía el apartado de todas tus aplicaciones de Google Play -->
+
+    <string name="other_apps_link" translatable="false">https://play.google.com/store/apps/collection/cluster?clp=igM4ChkKEzY3NDY1MTU1MzI0MDYzMjQzODQQCBgDEhkKEzY3NDY1MTU1MzI0MDYzMjQzODQQCBgDGAA%3D:S:ANO1ljJ_J6I&amp;gsr=CjuKAzgKGQoTNjc0NjUxNTUzMjQwNjMyNDM4NBAIGAMSGQoTNjc0NjUxNTUzMjQwNjMyNDM4NBAIGAMYAA%3D%3D:S:ANO1ljKZSDE</string>
+
+    <!-- Enlace hacía tu política de privacidad -->
+
+    <string name="privacy_policy_link" translatable="false">https://isaacdelosreyes.netlify.app/eula</string>
+
+    <!-- Enlace hacía tu perfil de usuario de Twitter -->
+
+    <string name="follow_twitter_link" translatable="false">https://twitter.com/iesedobleac</string>
+
+    <!-- Nombre de tu usuario de Twitter -->
+
+    <string name="follow_twitter_summary" translatable="false">\@iesedobleac</string>
+
+    <!-- Enlace de tu página de desarrollador de Google Play -->
+
+    <string name="developer_page_link" translatable="false">https://play.google.com/store/apps/dev?id=6746515532406324384</string>
+
+    <!-- Email de contacto, personal o el que quieras usar -->
+
+    <string name="email_contact_summary" translatable="false">isaacdelosredi@gmail.com</string>
+
+    <!-- Texto que aparece en el footer de las preferencias -->
+
+    <string name="developer_copyright" translatable="false">Developer by Isaac de los Reyes Díaz</string>
+
+</resources>
