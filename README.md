@@ -1,3 +1,3 @@
 # About App Screen
 
-Plantilla para la pantalla "Sobre la app" que puedes usar en tus proyectos con tan solo cambiar algunos literales
+Este repositorio se trata de una plantilla para la pantalla "Sobre la app" que puedes añadir en tus proyectos con tan solo cambiar los literales que voy a explicar más abajo.
