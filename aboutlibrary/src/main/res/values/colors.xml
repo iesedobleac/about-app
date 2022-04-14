@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="cod_gray">#0C0C0C</color>
+    <color name="raisin_black">#202020</color>
+    <color name="mine_shaft">#292929</color>
+    <color name="sonic_silver">#777777</color>
+
+</resources>

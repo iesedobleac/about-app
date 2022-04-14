@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutapp/src/main/res/drawable/more_apps_icon.xml" value="0.305" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutapp/src/main/res/drawable/privacy_policy_icon.xml" value="0.305" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutapp/src/main/res/drawable/rate_app_icon.xml" value="0.305" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutapp/src/main/res/drawable/twitter_icon.xml" value="0.305" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutapp/src/main/res/layout/preference_about_footer.xml" value="0.3015625" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutapp/src/main/res/layout/preference_about_header.xml" value="0.5416666666666666" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutapp/src/main/res/xml/fragment_about_app.xml" value="0.5" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutlibrary/src/main/res/drawable/rounded_dialog.xml" value="0.2405" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutlibrary/src/main/res/drawable/rounded_web_view.xml" value="0.3035" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutlibrary/src/main/res/layout/fragment_dialog_policy.xml" value="0.5463541666666667" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutlibrary/src/main/res/layout/preference_about_footer.xml" value="0.5463541666666667" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutlibrary/src/main/res/layout/preference_about_header.xml" value="0.30572916666666666" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/aboutlibrary/src/main/res/menu/about_menu.xml" value="0.5421875" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/app/src/main/res/layout/activity_main.xml" value="0.3015625" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/mylibrary/src/main/res/layout/preference_about_footer.xml" value="0.3015625" />
+        <entry key="..\:/Tecnologia/Programacion/Personal/Proyectos/AboutApp/mylibrary/src/main/res/layout/preference_about_header.xml" value="0.3015625" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

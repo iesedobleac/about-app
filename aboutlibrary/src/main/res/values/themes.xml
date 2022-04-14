@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="about_app_background_color">@color/white</item>
+        <item name="about_app_text_color">@color/sonic_silver</item>
+        <item name="about_app_name_color">@color/black</item>
+        <item name="about_app_version_color">@color/sonic_silver</item>
+    </style>
+
+    <style name="CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>
