@@ -1,8 +1,6 @@
 # About App Screen
 
-Este repositorio se trata de una plantilla para una pantalla tipo "Sobre la app", realizado con la biblioteca Preference de Jetpack's. 
-
-Puedes añadirla en tus proyectos con tan realizar los cambios que voy a explicar más abajo.
+Este repositorio se trata de una plantilla para una pantalla tipo "Sobre la app", realizado totalmente en Kotlin con la biblioteca `Preference` de Jetpack's. Puedes añadirla en tus proyectos con tan realizar los cambios que voy a explicar más abajo.
 
 ![](https://i.imgur.com/pvyzxjJ.png)
 
