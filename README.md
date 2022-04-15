@@ -114,10 +114,7 @@ El logo se encuentra en un componente de `Material Design` llamado `ShapeableIma
 
 #### **Modo noche**
 
-<p float="left">
-  <img src="https://i.imgur.com/KCiRlyy.png" width="380" />
-  <img src="https://i.imgur.com/FBXGCrB.png" width="380" /> 
-</p>
+![](https://i.imgur.com/v3OQJjg.png)
 
 La librería cuenta con modo noche u oscuro como se aprecia en las imágenes. Podemos modificar y adaptar los colores desde la carpeta de recursos en cada fichero de temas, colores y atributos.
 
