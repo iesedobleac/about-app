@@ -4,11 +4,9 @@ Este repositorio se trata de una plantilla para una pantalla tipo "Sobre la app"
 
 ![](https://i.imgur.com/pvyzxjJ.png)
 
-![](https://i.imgur.com/RKC0qWU.png)
+## Instalación
 
-### ¿Cómo la añado a mi proyecto?
-
-Su instalación es muy sencilla. En primer lugar, descargamos el proyecto a nuestro ordenador desde `Code -> Download ZIP.`
+En primer lugar, descargamos el proyecto a nuestro ordenador desde `Code -> Download ZIP.`
 
 Una vez lo extraemos vas a ver que tenemos varias carpetas, de entre todas ellas la que nos interesa es la que se llama aboutlibrary.
 
@@ -16,7 +14,7 @@ Vamos a la raíz de nuestro proyecto y pegamos aquí esta carpeta. Manos a la ob
 
 Vamos al fichero `settings.gradle` de nuestro proyecto y vamos a configurar el directorio que acabamos de añadir para que sea detectado como un módulo. Añadimos:
 
-```
+```groovy
 include ':aboutlibrary'
 ```
 
@@ -28,7 +26,7 @@ include ':aboutlibrary'
 
 A continuación, vamos al fichero `build.gradle` a nivel de aplicación y añadimos:
 
-```
+```groovy
 dependencies {
     ···
     implementation project(path: ':aboutlibrary')
@@ -38,7 +36,7 @@ dependencies {
 
 Hacemos una sincronización de nuestros archivos gradle y veremos como el icono del directorio que habíamos añadido ha cambiado, esto es señal de que lo que hemos realizado hasta ahora es correcto.
 
-### ¿Como modifico los literales?
+#### **¿Como modifico los literales?**
 
 Hay un fichero de literales diferente al que se genera de manera automática por el proyecto, para poder tener mejor localizado donde debemos realizar los cambios. Este fichero lo encontrarás en `res -> values -> mutable_strings.xml`
 
@@ -76,7 +74,7 @@ Hay un fichero de literales diferente al que se genera de manera automática por
 </resources>
 ```
 
-### ¿Cómo cambio el icono de la aplicación?
+#### **¿Cómo cambio el icono de la aplicación?**
 
 El logo se encuentra en un componente de `Material Design` llamado `ShapeableImageView`, ubicado en el header que es una vista customizada de Preference. Para acceder a este archivo podemos ir a `res -> layout -> preference_about_header.xml`. Solo hay que sustituir la imagen que está cargando actualmente por la de tu aplicación.
 
@@ -112,27 +110,31 @@ El logo se encuentra en un componente de `Material Design` llamado `ShapeableIma
 </FrameLayout>
 ```
 
-### Modo noche
+## Características extra
 
-![light-mode](https://i.imgur.com/KCiRlyy.png "light-mode") ![night-mode](https://i.imgur.com/FBXGCrB.png "night-mode")
+#### **Modo noche**
+
+<p float="left">
+  <img src="https://i.imgur.com/KCiRlyy.png" width="360" />
+  <img src="https://i.imgur.com/FBXGCrB.png" width="360" /> 
+</p>
 
 La librería cuenta con modo noche u oscuro como se aprecia en las imágenes. Podemos modificar y adaptar los colores desde la carpeta de recursos en cada fichero de temas, colores y atributos.
 
-### Secciones
+#### **Secciones**
 
 No voy a crear un tutorial específico sobre como añadir una nueva sección, pero es realmente sencillo si seguimos la guía oficial de Google:
 
-```
-https://developer.android.com/guide/topics/ui/settings
-```
+> https://developer.android.com/guide/topics/ui/settings
+
 
 En el caso de esta librería vamos a encontrar el xml de configuración en la carpeta de recursos `res -> xml -> fragment_about_app.xml`
 
-### Idiomas
+#### **Idiomas**
 
-De base, se encuentra traducida en inglés y en español, pero podemos añadir tantos idiomas como queramos añadiendo la carpeta de recursos correspondiente y traduciendo todos los literales que hay en ella o necesitemos.
+De base, se encuentra traducida en inglés y en español, pero podemos añadir tantos idiomas como queramos añadiendo la carpeta de recursos correspondiente y traduciendo todos los literales que necesitemos.
 
-### Consideraciones
+#### **Consideraciones**
 
 Está pensada para ser usada como un `fragment`, ya que extiende de `PreferenceFragmentCompat` la cual es una subclase de `Fragment`, así que debes de tener un `activity` donde poder cargarlo.
 
