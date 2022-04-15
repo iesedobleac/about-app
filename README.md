@@ -115,7 +115,7 @@ La plantilla está dividida en tres partes principales, un header, las secciones
 
 ### Modo noche
 
-![](https://i.imgur.com/KCiRlyy.png =x800) ![](https://i.imgur.com/FBXGCrB.png =x800)
+![light-mode](https://i.imgur.com/KCiRlyy.png "light-mode") ![night-mode](https://i.imgur.com/FBXGCrB.png "night-mode")
 
 La librería cuenta con modo noche u oscuro como se aprecia como se aprecia en las imágenes. Podemos modificar y adaptar los colores desde la carpeta de recursos en cada fichero de temas, colores y atributos.
 
@@ -137,4 +137,4 @@ De base, se encuentra traducida en inglés y en español, pero podemos añadir t
 
 Está pensada para ser usada como un `fragment`, ya que extiende de `PreferenceFragmentCompat` la cual es una subclase de `Fragment`, asi que debes de tener un `activity` donde poder cargarlo.
 
-La forma en la que lo inicies depende de ti, puedes usar el método habitual para cargar fragments o si lo prefieres, usar Navigation de la librería de Jetpack's.
+La forma en la que lo inicies depende de ti, puedes usar el método habitual para cargar fragments o si lo prefieres, usar `Navigation` de la librería de Jetpack's.
