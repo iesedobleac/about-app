@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        minSdk 23
+        minSdk 21
         targetSdk 31
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -43,6 +43,7 @@ dependencies {
 
     implementation "androidx.preference:preference-ktx:1.2.0"
     implementation "androidx.webkit:webkit:1.4.0"
+    implementation "androidx.window:window:1.0.0"
 
     implementation 'com.github.bumptech.glide:glide:4.13.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'

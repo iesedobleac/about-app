@@ -10,15 +10,9 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.fragment.app.DialogFragment
-import androidx.webkit.WebSettingsCompat
-import androidx.webkit.WebViewFeature
 import com.isaacdelosreyes.aboutapp.R
 import com.isaacdelosreyes.aboutapp.databinding.FragmentDialogPolicyBinding
-import com.isaacdelosreyes.aboutapp.utils.extensions.isDarkThemeOn
-import com.isaacdelosreyes.aboutapp.utils.extensions.isTrue
-
-private const val PADDING_START = 80
-private const val PADDING_END = 80
+import com.isaacdelosreyes.aboutapp.utils.extensions.getScreenWidth
 
 class PolicyDialogFragment : DialogFragment() {
 
@@ -54,6 +48,7 @@ class PolicyDialogFragment : DialogFragment() {
     override fun onStart() {
         super.onStart()
         setDialogParams()
+        setDialogMargins()
     }
 
     override fun onDestroy() {
@@ -68,8 +63,16 @@ class PolicyDialogFragment : DialogFragment() {
     private fun setDialogStyle() {
         dialog?.window?.apply {
             requestFeature(Window.FEATURE_NO_TITLE)
-            decorView.setPadding(PADDING_START, 0, PADDING_END, 0)
             decorView.background = ColorDrawable(Color.TRANSPARENT)
+        }
+    }
+
+    private fun setDialogMargins() {
+        activity?.let {
+            dialog?.window?.setLayout(
+                it.getScreenWidth() - 150,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+            )
         }
     }
 
