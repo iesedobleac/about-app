@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Textos fijos de cada categoría -->
+
+    <string name="other_apps_title">Mes autres applications</string>
+    <string name="other_apps_summary">Découvrez le reste de mes applications</string>
+    <string name="rate_app_title">Évaluez-moi sur Google Play</string>
+    <string name="rate_app_summary">Cela m\'aide à améliorer encore l\'application</string>
+    <string name="privacy_policy_title">Licence et politique de confidentialité</string>
+    <string name="privacy_policy_summary">Détails de la licence et politique de confidentialité</string>
+    <string name="follow_twitter_title">Suivez-moi sur Twitter</string>
+    <string name="developer_page_title">Ma page de développeur</string>
+    <string name="developer_page_summary">Un résumé de ce que je fais</string>
+    <string name="email_contact_title">Contact par courriel</string>
+
+    <!-- Botones de la toolbar -->
+
+    <string name="share_app_content">Bonjour ! Je voudrais vous montrer l\'application %1$s: %2$s</string>
+    <string name="share_app_title">Partager</string>
+    <string name="app_information">Information</string>
+
+    <!-- Nombres de las categorías -->
+
+    <string name="category_information">Information</string>
+    <string name="category_dev">Développeur</string>
+
+    <!-- Textos del diálogo -->
+
+    <string name="accept_button">Accepter</string>
+
+</resources>

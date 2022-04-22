@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">About App</string>
-
     <!-- Textos fijos de cada categoría -->
 
     <string name="other_apps_title">Mis otras aplicaciones</string>
