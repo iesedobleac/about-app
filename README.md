@@ -36,9 +36,36 @@ dependencies {
 
 Hacemos una sincronización de nuestros archivos gradle y veremos como el icono del directorio que habíamos añadido ha cambiado, esto es señal de que lo que hemos realizado hasta ahora es correcto.
 
+#### **Añadiendo los colores**
+
+Para que la pantalla compile correctamente, hay que declarar los atributos de colores en el archivo `themes.xml` de nuestra aplicación (no en el de la librería), para ello, podemos ver estos atributos en el fichero `res -> values -> attrs.xml`. Depende de si en nuestro proyecto tenemos modo noche o no, debemos declarar los atributos en uno o en ambos:
+
+```xml
+<item name="about_app_background_color">#000000</item>
+<item name="about_app_text_color">#000000</item>
+<item name="about_app_name_color">#000000</item>
+<item name="about_app_version_color">#000000</item>
+```
+
+Si no declaramos los colores, cuando intentemos acceder a esta pantalla, obtendremos un error al inflar la vista XML, debido a que no ha encontrado el atributo de color que está declarado.
+
+#### **Idiomas disponibles**
+
+La librería está disponible en seis idiomas: español, inglés, alemán, italiano, francés y portugués. Puedes mantenerlos todos, aunque si quieres ahorrar espacio y eliminar los que no vas a utilizar, puedes hacerlo eliminando su carpeta correspondiente en la carpeta de recursos y dejar solo los que te interesan. Estas carpetas son:
+
+```txt
+values-es
+values-de
+values-it
+values-fr
+values-pt
+```
+
+En el caso de que tu aplicación solo tenga un único idioma, este irá en su correspondiente fichero `strings.xml` dentro de la carpeta `values`.
+
 #### **¿Como modifico los literales?**
 
-Hay un fichero de literales diferente al que se genera de manera automática por el proyecto, para poder tener mejor localizado donde debemos realizar los cambios. Este fichero lo encontrarás en `res -> values -> mutable_strings.xml`
+Hay un fichero de literales diferente al que se genera de manera automática por el proyecto, para poder tener mejor localizado donde debemos realizar los cambios. Este fichero lo encontrarás en `res -> values -> mutables.xml`
 
 ```xml
 <resources>
@@ -126,10 +153,6 @@ No voy a crear un tutorial específico sobre como añadir una nueva sección, pe
 
 
 En el caso de esta librería vamos a encontrar el xml de configuración en la carpeta de recursos `res -> xml -> fragment_about_app.xml`
-
-#### **Idiomas**
-
-De base, se encuentra traducida en inglés y en español, pero podemos añadir tantos idiomas como queramos añadiendo la carpeta de recursos correspondiente y traduciendo todos los literales que necesitemos.
 
 #### **Consideraciones**
 
