@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.isaacdelosreyes.aboutapp.views.CustomHeaderPreference
+        app:layout="@layout/preference_about_header"
+        app:persistent="false" />
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/category_information">
+
+        <Preference
+            android:icon="@drawable/rate_app_icon"
+            android:key="pref_rate_app"
+            android:summary="@string/rate_app_summary"
+            android:title="@string/rate_app_title"
+            app:iconSpaceReserved="true" />
+
+        <Preference
+            android:icon="@drawable/privacy_policy_icon"
+            android:key="pref_open_policy"
+            android:summary="@string/privacy_policy_summary"
+            android:title="@string/privacy_policy_title"
+            app:iconSpaceReserved="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/category_dev"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:icon="@drawable/more_apps_icon"
+            android:summary="@string/other_apps_summary"
+            android:title="@string/other_apps_title"
+            app:iconSpaceReserved="true">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/other_apps_link" />
+
+        </Preference>
+
+        <Preference
+            android:icon="@drawable/twitter_icon"
+            android:summary="@string/follow_twitter_summary"
+            android:title="@string/follow_twitter_title"
+            app:iconSpaceReserved="true">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/follow_twitter_link" />
+        </Preference>
+
+        <Preference
+            android:layout_height="wrap_content"
+            android:icon="@drawable/market_icon"
+            android:summary="@string/developer_page_summary"
+            android:title="@string/developer_page_title"
+            app:iconSpaceReserved="true">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/developer_page_link" />
+        </Preference>
+
+        <Preference
+            android:icon="@drawable/email_icon"
+            android:key="send_mail_to_dev"
+            android:summary="@string/email_contact_summary"
+            android:title="@string/email_contact_title"
+            app:iconSpaceReserved="true" />
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="footer_copyright"
+        android:layout="@layout/preference_about_footer"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="false" />
+
+</PreferenceScreen>

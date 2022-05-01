@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.webserveis.app.whatschatviewer.MainActivity">
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:icon="@drawable/share_icon"
+        android:title="@string/share_app_title"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_app_info"
+        android:orderInCategory="100"
+        android:icon="@drawable/info_icon"
+        android:title="@string/app_information"
+        app:showAsAction="ifRoom" />
+
+</menu>

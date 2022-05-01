@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Textos fijos de cada categoría -->
+
+    <string name="other_apps_title">Mis otras aplicaciones</string>
+    <string name="other_apps_summary">Descubre el resto de mis aplicaciones</string>
+    <string name="rate_app_title">Valórame en Google Play</string>
+    <string name="rate_app_summary">Me ayuda a seguir mejorando la aplicación</string>
+    <string name="privacy_policy_title">Licencia y política de privacidad</string>
+    <string name="privacy_policy_summary">Detalles de licencia y política de privacidad</string>
+    <string name="follow_twitter_title">Sígueme en Twitter</string>
+    <string name="developer_page_title">Mi página de desarrollador</string>
+    <string name="developer_page_summary">Un resumen de todo lo que hago</string>
+    <string name="email_contact_title">Contacta vía email</string>
+
+    <!-- Botones de la toolbar -->
+
+    <string name="share_app_content">¡Hola! Me gustaría enseñarte la aplicación %1$s: %2$s</string>
+    <string name="share_app_title">Compartir</string>
+    <string name="app_information">Información</string>
+
+    <!-- Nombres de las categorías -->
+
+    <string name="category_information">Información</string>
+    <string name="category_dev">Desarrollador</string>
+
+    <!-- Textos del diálogo -->
+
+    <string name="accept_button">Aceptar</string>
+
+</resources>
