@@ -5,6 +5,8 @@ import android.os.Bundle
 import com.isaacdelosreyes.aboutapp.AboutAppFragment
 import com.isaacdelosreyes.example.databinding.ActivityExampleBinding
 
+private const val ABOUT_FRAGMENT_TAG = "AboutFragment"
+
 class ExampleActivity : AppCompatActivity() {
 
     private var binding: ActivityExampleBinding? = null
@@ -22,7 +24,7 @@ class ExampleActivity : AppCompatActivity() {
         fragmentTransaction.replace(
             R.id.main__container__preference_fragment,
             fragment,
-            "ABOUT_APP_FRAGMENT_TAG"
+            ABOUT_FRAGMENT_TAG
         )
         fragmentTransaction.commit()
     }
