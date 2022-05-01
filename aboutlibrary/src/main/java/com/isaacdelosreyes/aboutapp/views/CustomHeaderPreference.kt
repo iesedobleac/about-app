@@ -58,12 +58,12 @@ class CustomHeaderPreference @JvmOverloads constructor(
     private fun setHeaderBackgroundWhenIsDarkThemeOn(mainBackground: AppCompatImageView) {
         if (this.context.isDarkThemeOn()) {
             Glide.with(this.context)
-                .load(R.drawable.night_mode_test)
+                .load(R.drawable.header_dark)
                 .into(mainBackground)
 
         } else {
             Glide.with(this.context)
-                .load(R.drawable.header_test)
+                .load(R.drawable.header_light)
                 .into(mainBackground)
         }
     }
